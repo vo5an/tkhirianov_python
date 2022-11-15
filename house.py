@@ -24,6 +24,14 @@ def draw_house(x, y, width, height):
     draw_house_roof(x, y - foundation_height - walls_height, width, roof_height)
 
 def draw_house_foundation(x, y, width, height):
+    """
+        Функция рисует домик
+        :param x: середина нижней части фундамента
+        :param y: середина нижней части фундамента
+        :param width: общая ширина фундамента
+        :param height: общая высота фундамента
+        :return: None
+        """
     print('Типа рисую фундамент', x, y, width, height)
 
 def draw_house_walls(x, y, width, height):
