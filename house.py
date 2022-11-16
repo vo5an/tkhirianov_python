@@ -35,7 +35,7 @@ def draw_house_foundation(x, y, width, height):
     print('Типа рисую фундамент', x, y, width, height)
 
 def draw_house_walls(x, y, width, height):
-    print('Типа рисую стены', x, y, width, height)
+    print('Типа рисую стену', x, y, width, height)
 
 def draw_house_roof(x, y, width, height):
     print('Типа рисую крышу', x, y, width, height)
