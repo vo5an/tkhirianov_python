@@ -10,7 +10,7 @@ def draw_house(x, y, width, height):
     :param x: середина нижней части фундамента
     :param y: середина нижней части фундамента
     :param width: общая ширина
-    :param height: общая высота
+    :param height: общая высота домика
     :return: None
     """
     print('Типа рисую домик', x, y, width, height)
